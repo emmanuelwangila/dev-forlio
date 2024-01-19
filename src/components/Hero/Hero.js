@@ -20,7 +20,11 @@ const Hero = () => (
         I'm a Software developer, highly motivated and interested in Technology,
         applying my skills to better our society
       </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
+      <Button
+        onClick={() =>
+          (window.location = "https://github.com/emmanuelwangila/")
+        }
+      >
         Learn More About Me
       </Button>
     </LeftSection>
